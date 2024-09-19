@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.task{
+    display: flex;
+    justify-content:space-between;
+    padding: 0.5rem;
+    margin:0.5rem ;
+}
+.task p{
+    margin-right: 2rem;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+.delete-btn,
+.edit-btn{
+    width: 25%;
+    text-align: center;
+}
+
